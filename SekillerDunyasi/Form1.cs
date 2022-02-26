@@ -186,6 +186,7 @@ namespace SekillerDunyasi
         }
         private void VerileriOku()
         {
+
             // Deserialization
             string json = File.ReadAllText("veri.json");
             sekiller = JsonConvert.DeserializeObject<BindingList<Sekil>>(json, new JsonSerializerSettings
